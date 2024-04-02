@@ -93,6 +93,8 @@
           cursor: pointer;
           font-weight: 600;
           font-size: 20px;
+          border: 2px solid white;
+
 
           @include mobile{
             display: flex;
