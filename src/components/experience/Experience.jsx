@@ -11,7 +11,7 @@ const variants = {
       x: 0,
       opacity: 1,
       transition: {
-        duration: 0.3,
+        duration: 1,
         staggerChildren: 0.1,
       },
     },
@@ -26,21 +26,15 @@ function Experience() {
             <h1><i className="fa-solid fa-briefcase" style={{color: "#fafafa"}}/>Experience</h1>
         </div>
     <div className='experience'>
-        <motion.div className="titleContainer" initial="initial"
-    variants={variants} 
-    ref={ref}
-    animate={isInView ? "animate" : "initial"}>
+        <div className="titleContainer" >
           <div >
           <img src='./kaar.png' alt='KaarTech' ></img>
           </div>
             <h1 ><b>Kaar Technologies</b></h1>
             <h3 >FTF Intern</h3>
             <h5 >Oct 2023 - Present</h5>
-        </motion.div>
-        <motion.div className="textContainer" initial="initial"
-    variants={variants} 
-    ref={ref}
-    animate={isInView ? "animate" : "initial"}>
+        </div>
+        <div className="textContainer"  >
             <ul >
                 <li>Underwent trainings in Javascript, Angular, Node.js, MongoDB and developed websites using it.</li>
                 <li>Underwent trainings in SAP modules like SAP ABAP, PIPO, Odata, RFC.</li>
@@ -48,7 +42,7 @@ function Experience() {
                     understood the business process of each portal
                 </li>
             </ul>
-        </motion.div>
+        </div>
     </div>
     </div>
   )
