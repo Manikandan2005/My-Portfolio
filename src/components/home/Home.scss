@@ -21,6 +21,9 @@
     @include mobile{
       margin-top: 50px;
       padding-left: 10px;
+      display: flex;
+      justify-content: center;
+      align-items:center;
     }
 
     .textContainer {
@@ -32,18 +35,15 @@
       gap: 40px;
 
       @include mobile{
-        margin-left: 10px;
-        display: unset;
         justify-content: center;
-        gap: 100px;
+        width: 90%;
       
       }
 
       @include mobile{
         .downArrow{
-  
           i{
-            margin-top: 20px;
+            margin-top: 140px;
             margin-left: 20px;
           }
         }
@@ -53,12 +53,14 @@
         font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
+        
 
         @include mobile{
           font-size: 17px;
           letter-spacing: 4px;
-          margin-top: 200px;
+          margin-top: 250px;
           margin-left: 25%;
+          width: 100%;
         }
 
 
@@ -69,15 +71,21 @@
         @include mobile{
           font-size: 40px;
           text-align: center;
-          margin-right: 12px;
+          width: 90%;
+          margin-left: 20px;
         }
       }
 
       .buttons {
         z-index: 1;
+
+        @include mobile{
+          z-index: 1;
+          display: flex;
+          
+        }
         button {
           padding: 15px;
-          border: 2px solid white;
           border-radius: 10px;
           background-color: transparent;
           color: orange;
@@ -87,9 +95,14 @@
           font-size: 20px;
 
           @include mobile{
-            padding: 7px;
-            font-size: 15px;
-            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-self: center;
+            padding:7px;
+            font-size: 14px;
+            font-weight: 700;
+            height: 40px;
+            border: 2px white solid;
           }
         }
 
@@ -113,8 +126,9 @@
 
 
    @include mobile{
-     height: 100vh;
-     margin-right:15%;
+      margin-right: 17%;
+      right: unset;
+      width: 30%;
    }
 
 
@@ -127,7 +141,7 @@
       margin-right: 50px;
       @include mobile{
         width:200px;
-        height:200px;    
+        height:200px;  
     }
     }
   }
