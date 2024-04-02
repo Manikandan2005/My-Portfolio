@@ -22,32 +22,32 @@ function Experience() {
     const isInView = useInView(ref, { margin: "-100px" });
   return (
     <div className="page">
-        <motion.div className="heading">
+        <div className="heading">
             <h1><i className="fa-solid fa-briefcase" style={{color: "#fafafa"}}/>Experience</h1>
-        </motion.div>
-    <motion.div className='experience'
+        </div>
+    <div className='experience'
         initial="initial"
-        variants={variants}
+        
         ref={ref}
         animate={isInView ? "animate" : "initial"}>
-        <motion.div className="titleContainer" variants={variants}>
-          <motion.div variants={variants}>
-          <img src='./kaar.png' alt='KaarTech' variants={variants}></img>
-          </motion.div>
-            <motion.h1 variants={variants}><b>Kaar Technologies</b></motion.h1>
-            <motion.h3 variants={variants}>FTF Intern</motion.h3>
-            <motion.h5 variants={variants}>Oct 2023 - Present</motion.h5>
-        </motion.div>
-        <motion.div className="textContainer"  variants={variants}>
-            <motion.ul variants={variants}>
+        <div className="titleContainer" >
+          <div >
+          <img src='./kaar.png' alt='KaarTech' ></img>
+          </div>
+            <h1 ><b>Kaar Technologies</b></h1>
+            <h3 >FTF Intern</h3>
+            <h5 >Oct 2023 - Present</h5>
+        </div>
+        <div className="textContainer"  >
+            <ul >
                 <li>Underwent trainings in Javascript, Angular, Node.js, MongoDB and developed websites using it.</li>
                 <li>Underwent trainings in SAP modules like SAP ABAP, PIPO, Odata, RFC.</li>
                 <li>Developed portals using SAP, Angular and SAP provided Middlewares(PIPO, Odata, RFC) and 
                     understood the business process of each portal
                 </li>
-            </motion.ul>
-        </motion.div>
-    </motion.div>
+            </ul>
+        </div>
+    </div>
     </div>
   )
 }
