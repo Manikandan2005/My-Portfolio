@@ -13,7 +13,7 @@ const NavBar = ()=> {
          animate={{ opacity: 1, scale: 1 }}
          transition={{ duration: 0.5 }}
         >
-            Manikandan R
+            Portfolio
         </motion.span>
         <motion.div className='social'
          initial={{ opacity: 0, scale: 0.5 }}
