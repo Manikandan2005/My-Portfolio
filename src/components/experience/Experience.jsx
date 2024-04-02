@@ -21,22 +21,21 @@ function Experience() {
     const ref = useRef();
     const isInView = useInView(ref, { margin: "-100px" });
   return (
-    <div className="page">
+    <motion.div className="page" initial="initial"
+    variants={variants} 
+    ref={ref}
+    animate={isInView ? "animate" : "initial"}>
         <div className="heading">
             <h1><i className="fa-solid fa-briefcase" style={{color: "#fafafa"}}/>Experience</h1>
         </div>
-    <div className='experience'
-        initial="initial"
-        
-        ref={ref}
-        animate={isInView ? "animate" : "initial"}>
+    <div className='experience'>
         <div className="titleContainer" >
           <div >
           <img src='./kaar.png' alt='KaarTech' ></img>
           </div>
-            <h1 ><b>Kaar Technologies</b></h1>
-            <h3 >FTF Intern</h3>
-            <h5 >Oct 2023 - Present</h5>
+            <motion.h1 variants={variants} ><b>Kaar Technologies</b></motion.h1>
+            <motion.h3 variants={variants} >FTF Intern</motion.h3>
+            <motion.h5 variants={variants} >Oct 2023 - Present</motion.h5>
         </div>
         <div className="textContainer"  >
             <ul >
@@ -48,7 +47,7 @@ function Experience() {
             </ul>
         </div>
     </div>
-    </div>
+    </motion.div>
   )
 }
 
