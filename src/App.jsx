@@ -5,7 +5,7 @@ import Experience from "./components/experience/Experience";
 import Home from "./components/home/Home";
 import NavBar from "./components/navbar/NavBar";
 import Project from "./components/projects/Project";
-import SectionIntro from "./components/sectionintro/Sectionintro";
+import SectionIntro from "./components/sectionintro/sectionintro";
 import Contact from './components/contact/Contact'
 
 
