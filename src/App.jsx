@@ -1,12 +1,12 @@
 import "./app.scss"
 import About from "./components/about/About";
-import Contact from "./components/contact/contact";
 import Courses from "./components/courses/Courses";
 import Experience from "./components/experience/Experience";
 import Home from "./components/home/Home";
 import NavBar from "./components/navbar/NavBar";
 import Project from "./components/projects/Project";
-import SectionIntro from "./components/sectionintro/sectionintro";
+import SectionIntro from "./components/sectionintro/Sectionintro";
+import Contact from './components/contact/Contact'
 
 
 const App = () => {
