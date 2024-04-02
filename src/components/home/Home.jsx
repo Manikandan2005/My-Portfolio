@@ -50,7 +50,7 @@ const Home = ()=> {
             <motion.h2 variants={textVariants}>Manikandan R</motion.h2>
             <motion.h1 variants={textVariants}>Mean/Mern Stack developer</motion.h1>
             <motion.div className="buttons">   
-                <motion.button variants={textVariants}><motion.a href='./resume.pdf' download="Manikandan R CV">Download CV</motion.a></motion.button>
+                <motion.button variants={textVariants}><motion.a href='./ManikandanR.pdf' download="Manikandan R CV">Download CV</motion.a></motion.button>
                 <motion.button variants={textVariants}><motion.a href='#Skills&Contact'>Contact me</motion.a></motion.button>
             </motion.div>
             <motion.div className='downArrow'>
