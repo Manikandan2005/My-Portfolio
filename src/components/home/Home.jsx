@@ -38,6 +38,11 @@ const textVariants = {
     },
   };
 
+  const openPdf = ()=>{
+    console.log("hi")
+  }
+
+
 const Home = ()=> {
   return (
     <div className='homeimage'>
@@ -49,11 +54,11 @@ const Home = ()=> {
             animate="animate">
             <motion.h2 variants={textVariants}>Manikandan R</motion.h2>
             <motion.h1 variants={textVariants}>Mean/Mern Stack developer</motion.h1>
-            <motion.div className="buttons" variants={textVariants}>
+            <div className="buttons">
               
-              <motion.button variants={textVariants}><motion.a href='./resume.pdf' download="Manikandan R CV">Download CV</motion.a></motion.button>
-                <motion.button variants={textVariants}><motion.a href='#Skills&Contact'>Contact me</motion.a></motion.button>
-            </motion.div>
+                <button onClick={()=>openPdf()}>Download CV</button>
+                <button><a href='#Skills&Contact'>Contact me</a></button>
+            </div>
             <motion.div className='downArrow'>
 
                 <motion.i className="fa-solid fa-arrow-down fa-bounce fa-xl"  

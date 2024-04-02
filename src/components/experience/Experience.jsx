@@ -30,14 +30,14 @@ function Experience() {
         variants={variants}
         ref={ref}
         animate={isInView ? "animate" : "initial"}>
-        <div className="titleContainer">
-          <div>
-          <img src='./kaar.png' alt='KaarTech'></img>
-          </div>
+        <motion.div className="titleContainer" variants={variants}>
+          <motion.div variants={variants}>
+          <img src='./kaar.png' alt='KaarTech' variants={variants}></img>
+          </motion.div>
             <motion.h1 variants={variants}><b>Kaar Technologies</b></motion.h1>
-            <h3>FTF Intern</h3>
-            <h5>Oct 2023 - Present</h5>
-        </div>
+            <motion.h3 variants={variants}>FTF Intern</motion.h3>
+            <motion.h5 variants={variants}>Oct 2023 - Present</motion.h5>
+        </motion.div>
         <motion.div className="textContainer"  variants={variants}>
             <motion.ul variants={variants}>
                 <li>Underwent trainings in Javascript, Angular, Node.js, MongoDB and developed websites using it.</li>

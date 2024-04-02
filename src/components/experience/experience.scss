@@ -4,6 +4,7 @@
     height: 100vh;
 
     @include mobile{
+        transform: none !important;
         padding-left: 30px;
         padding-right: 20px;
     }
@@ -15,7 +16,6 @@
     overflow: hidden;
 
       @include mobile{
-        transform: none !important;
         display: unset;
         margin-left: 70px;
     }
@@ -80,13 +80,14 @@
 
         @include mobile{
             display: unset;
-            font-size: 10px;    
+            font-size: 12px;    
             line-height: 3;
             right: 0;   
             margin-left: 100px;
             margin-top: 50px;
             height: unset;
             flex-direction: unset; 
+            font-weight: bolder;
         }
 
 

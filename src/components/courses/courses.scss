@@ -8,6 +8,7 @@
     @include mobile{
         padding-left: 20px;
         text-align: center;
+        margin-top: 40px;
     }
     .courses{
     position: relative;
@@ -83,7 +84,7 @@
         font-weight: 600;
 
         @include mobile{
-            font-size: 10px;
+            font-size: 12px;
             width: 100%;
             padding-left: 20px;
             padding-right: 20px;
