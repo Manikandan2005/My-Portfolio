@@ -1,5 +1,5 @@
-<h1>Portfolio website</h1></br>
-<b>Deployed URL - https://graceful-douhua-32bdad.netlify.app/</b>
+<h1>Portfolio website</h1>
+<b>Deployed URL - https://graceful-douhua-32bdad.netlify.app/</b></br>
 <ul>
   <li>Designed a attractive portfolio with react and with react framer motion library</li>
   <li>Used scss for styling</li>
