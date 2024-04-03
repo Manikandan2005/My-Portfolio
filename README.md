@@ -2,6 +2,7 @@
 <ul>
   <li>Designed a attractive portfolio with react and with react framer motion library</li>
   <li>Used scss for styling</li>
+  <li><b>Deployed URL - https://graceful-douhua-32bdad.netlify.app/</b></li>
 </ul>
 <h3>Sections</h3>
 <ol>
