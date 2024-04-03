@@ -1,4 +1,14 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
+<h1>Portfolio website</h1>
+<ul>
+  <li>Designed a attractive portfolio with react and with react framer motion library</li>
+  <li>Used scss for styling</li>
+</ul>
+<h3>Sections</h3>
+<ol>
+  <li>Homepage from where you can download my CV</li>
+  <li>About</li>
+  <li>Experience</li>
+  <li>Projects</li>
+  <li>Courses</li>
+  <li>Contact</li>
+</ol>
