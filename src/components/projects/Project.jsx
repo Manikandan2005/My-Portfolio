@@ -16,9 +16,9 @@ const items = [
   },
   {
     id: 3,
-    title: "Job Board App",
-    img: "https://st.depositphotos.com/1074452/4552/i/450/depositphotos_45520643-stock-photo-jobs-map-represents-worldwide-or.jpg",
-    desc:"Developed a job portal app using the MERN stack that employs MongoDB for data storage, Express.js for API development, React.js for the frontend, and Node.js for server-side operations.Incorporated JWT for authentication, Mongoose for data modeling, Axios for API communication, and Redux for state management, enhancing user experience with features like job recommendations and chat functionality."
+    title: "Real Estate App",
+    img: "https://assets.entrepreneur.com/content/3x2/2000/20150622231001-for-sale-real-estate-home-house.jpeg",
+    desc:"Developed a real estate application using the MERN stack (MongoDB, Express.js, React, Node.js) for full-stack development.Designed and implemented a user-friendly homepage with filter options for property search, enhancing user experience and ease of navigation.Utilized Socket.IO for real-time interactions, enabling live chat functionality within the application for seamless communication between users and owners.Employed Node.js and Express.js for the backend server, facilitating robust API development and handling client-server communications effectively."
   }
 ];
 
