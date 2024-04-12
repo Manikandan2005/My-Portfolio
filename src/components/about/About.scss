@@ -59,7 +59,9 @@
     }
   
     .listContainer {
-
+        @include mobile{
+            margin-top:10px
+        }
         &:hover{
             .box{
                 background-color: orange;
